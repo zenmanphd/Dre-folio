@@ -2,6 +2,11 @@ body {
     margin: auto;
     text-align: center;
 }
-h1, p {
-    color: brown;
+h1 {
+    color: rgb(92, 17, 17);
+    font-size: larger;
+}
+p {
+    color: rgb(92, 17, 17);
+    font-size: larger;
 }
