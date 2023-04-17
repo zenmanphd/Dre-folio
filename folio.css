@@ -4,17 +4,14 @@ body {
     text-align: center;
 }
 h1 {
-    color: rgb(92, 17, 17);
+    color: rgb(175, 209, 209);
     font-size: 75px;
 }
 p {
-    color: rgb(92, 17, 17);
+    color: rgb(175, 209, 209);
     font-size: larger;
 }
 div {
-    background-color:rgba(83, 98, 124, 0.61);
-    border: 2px solid rgb(92, 17, 17);
-    border-radius: 4px;
     width: 500px;
     margin: auto;
     margin-top: 20%;
