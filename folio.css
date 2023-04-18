@@ -13,6 +13,9 @@ p {
     color: rgb(175, 209, 209);
     font-size: larger;
 }
+h1, p {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
 div {
     width: 500px;
     margin: auto;
