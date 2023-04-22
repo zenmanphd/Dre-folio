@@ -1,11 +1,11 @@
 body {
     background-color: rgb(43, 19, 19);
-    background-image: linear-gradient(to right, rgb(43, 19, 19), rgb(105, 33, 18));
+    background-image: linear-gradient(to right, rgb(78, 27, 27), rgb(140, 111, 105));
     margin: auto;
     text-align: center;
 }
 h1 {
-   
+    color: rgb(175, 209, 209);
     font-size: 80px;
 }
 p {
