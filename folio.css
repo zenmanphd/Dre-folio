@@ -6,12 +6,6 @@ body {
 h1 {
     font-size: 80px;
 }
-a {
-    color: rgb(204, 226, 246);
-    text-align: center;
-    margin: auto;
-    display: inline-block;
-}
 p {
     font-size: 35px;
 }
