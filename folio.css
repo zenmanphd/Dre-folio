@@ -31,4 +31,6 @@ h1, p {
 }
 .navsel {
     display: inline-block;
+    background:  linear-gradient(to left, rgb(203, 219, 234), rgb(145, 196, 244), rgb(79, 154, 224));
+    color: aliceblue;
 }
