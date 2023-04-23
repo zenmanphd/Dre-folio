@@ -26,9 +26,6 @@ h1, p {
     margin: auto;
     margin-top: 15%;
 }
-#info {
-    position: relative;
-}
 .navsel {
     display: flex;
     align-items: center;
