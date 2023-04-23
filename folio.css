@@ -20,7 +20,7 @@ h1, p {
     margin: auto;
     margin-top: 15%;
 }
-.navsel {
+button {
     background:  linear-gradient(to left, rgb(203, 219, 234), rgb(145, 196, 244), rgb(79, 154, 224));
     color: aliceblue;
     font-size: large;
