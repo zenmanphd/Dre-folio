@@ -1,31 +1,37 @@
 body {
-    background-image: linear-gradient(to right, rgb(26, 100, 175), rgb(77, 117, 171), rgb(213, 243, 247));
+    background-image: linear-gradient(145deg, rgb(4, 24, 43), rgb(77, 117, 171), rgb(232, 246, 247));
+    background-size: cover;
+    background-attachment: fixed;
     margin: auto;
     text-align: center;
 }
 h1 {
     font-size: 80px;
+    font-weight: lighter;
 }
 p {
     font-size: 35px;
 }
 h1, p {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    background: linear-gradient(177deg, rgba(215, 230, 245, 0.72), rgb(252, 216, 148), rgba(1, 8, 28, 0.76));  
+    margin: auto;
+    font-family: century gothic;
+    font-style: normal;
+    background: linear-gradient(50deg, #fcfa71, #aacdfe, #d96812);  
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 .nombre {
+   
     width: 750px;
     margin: auto;
-    margin-top: 15%;
+    margin-top: 20%;
 }
 button {
-    background:  linear-gradient(360deg, rgb(108, 164, 215), rgba(39, 89, 135));
-    color: rgb(204, 223, 239);
+    background-color: transparent;
+    color: rgb(189, 235, 255);
     font-size: large;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    border: 2px solid rgb(101, 150, 196);
+    font-family: century gothic;
+    border: 2px solid rgb(87, 212, 246);
     border-radius: 8px;
 }
 .info {
