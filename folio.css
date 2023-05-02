@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(145deg, rgb(7, 44, 77), rgb(66, 104, 152), rgb(247, 194, 161));
+    background-image: linear-gradient(145deg,rgb(10, 17, 101), rgb(212, 246, 209));
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
@@ -19,7 +19,7 @@ h1, p {
     margin: auto;
     font-family: century gothic;
     font-style: normal;
-    background: linear-gradient(35deg, #bae8f3, #56b0ec, #ed8f23);  
+    background: linear-gradient(145deg, rgb(254, 251, 247), rgb(120, 187, 241), rgb(238, 243, 244));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
@@ -27,15 +27,20 @@ h1, p {
    
     width: 750px;
     margin: auto;
-    margin-top: 20%;
+    margin-top: 15%;
 }
 button {
     background-color: transparent;
     color: rgb(189, 235, 255);
-    font-size: large;
+    font-size: larger;
     font-family: century gothic;
     border: 2px solid rgb(87, 212, 246);
-    border-radius: 8px;
+    border-radius: 12px;
+}
+button:hover {
+    border: 2px solid rgb(242, 134, 98);
+    border-radius: 1px;
+    transition-duration: 100ms;
 }
 .info {
     display: flex;
