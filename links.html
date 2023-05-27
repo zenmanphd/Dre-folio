@@ -11,6 +11,17 @@
             background-size: cover;
             background-repeat: no-repeat;
             background-position: 50% 50%;
+             animation: transitionIn 850ms;
+}
+@keyframes transitionIn {
+    from {
+        opacity: 0;
+        transform: rotateX(-10deg);
+    }
+    to {
+        opacity: 1;
+        transform: rotateX(0);
+    }
         }
         h1 {
             color: bisque;
