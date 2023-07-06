@@ -44,7 +44,7 @@ h1:hover {
 }
 p:hover {
     font-size: 38px;
-    background: linear-gradient(145deg, rgb(154, 223, 248), rgb(254, 251, 247), rgb(247, 191, 94));
+    background: linear-gradient(145deg, rgb(117, 212, 247), rgb(254, 251, 247), rgb(247, 191, 94));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
