@@ -59,14 +59,16 @@ button {
     color: rgb(29, 101, 133);
     font-size: larger;
     font-family: century gothic;
-    border: 2px solid rgb(87, 212, 246);
+    border: 1.5px solid rgb(87, 212, 246);
     border-radius: 12px;
 }
 button:hover {
     font-size: x-large;
-    border: 2px solid rgb(249, 127, 253);
-    border-radius: 1px;
-    transition-duration: 100ms;
+  color: rgb(146, 51, 47);
+  border: 1.5px solid rgb(146, 51, 47);
+  border-radius: 1px;
+  transition-duration: 100ms;
+  transform: rotate(8deg);
 }
 .info {
     display: flex;
