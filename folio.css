@@ -38,13 +38,13 @@ h1, p {
 }
 h1:hover {
     font-size: 85px;
-    background: linear-gradient(145deg, rgb(157, 222, 246), rgb(247, 191, 94));
+    background: linear-gradient(rgb(156, 81, 51), rgb(174, 193, 196));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
 p:hover {
     font-size: 38px;
-    background: linear-gradient(145deg, rgb(157, 222, 246), rgb(247, 191, 94));
+    background: linear-gradient(rgb(156, 81, 51), rgb(174, 193, 196));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
 }
