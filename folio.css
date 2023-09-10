@@ -1,5 +1,5 @@
 body {
-    background-image: linear-gradient(145deg, rgb(254, 251, 247), rgb(120, 187, 241), rgb(245, 137, 74));
+    background-image: rgb(253, 253, 253);
     background-size: cover;
     background-attachment: fixed;
     margin: auto;
@@ -31,7 +31,7 @@ h1, p {
     margin: auto;
     font-family: century gothic;
     font-style: normal;
-    background: linear-gradient(145deg, rgb(254, 251, 247), rgb(120, 187, 241), rgb(238, 243, 244));
+    background: linear-gradient(rgba(7, 36, 87, 0.637), rgb(108, 112, 112), rgb(110, 145, 240));
     -webkit-text-fill-color: transparent;
     -webkit-background-clip: text;
     transition: 0.75s;
