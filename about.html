@@ -34,6 +34,7 @@ marquee{
   color: maroon;
   line-height: 250%;
   font-size: larger;
+  text-align: right;
 }
 .marquee {
   margin-left:50%;
@@ -43,7 +44,6 @@ marquee{
 img {
   width: 400px;
   border-radius: 200px;
-  margin: auto;
 }
 body {
  background-color: rgb(235, 242, 243);
@@ -56,22 +56,23 @@ body {
       <h2>About Me</h2>
       <a href="Drefolio.pdf">References</a>
     </nav>
+    <div className="marquee">
+      <marquee scrolldelay="250" direction="up"><i>
+          I want to learn just enough French to curse when I'm frustrated.
+        
+        I love that glimpse of the morning when everything is blue. 
+        
+        It has a kind of sober, cinematic gravity that forces you to reflect. 
+        I've seen more sunsets than sunrises, but I find both to be equally informative.
+        </i></marquee>
+      </div>
     
     <div className="self">
     <img src="selfie1.jpg">
       <h1><i>Andre A. Bailey</i></h1>
       <h2><i>Web Designer</i></h2>
     </div>
-    <div className="marquee">
-    <marquee scrolldelay="250" direction="up"><i>
-        I want to learn just enough French to curse when I'm frustrated.
-      
-      I love that glimpse of the morning when everything is blue. 
-      
-      It has a kind of sober, cinematic gravity that forces you to reflect. 
-      I've seen more sunsets than sunrises, but I find both to be equally informative.
-      </i></marquee>
-    </div>
+   
     <a href="index.html"><button class="home">Take me home!</button></a>
 </body>
 </html>
