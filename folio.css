@@ -68,7 +68,7 @@ button:hover {
   border: 1.5px solid rgb(146, 51, 47);
   border-radius: 1px;
   transition-duration: 100ms;
-  transform: rotate(8deg);
+  transform: rotate(6deg);
 }
 .info {
     display: flex;
