@@ -5,20 +5,24 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
-    <style>     
+    <style> 
+html {
+  margin: 0;
+  padding: 0;
+}    
 h1,h2 {
   font-family: century gothic;
   font-weight: 500;
-  color: maroon; 
+  color:rgb(226, 234, 248); 
 }
 a {
-  color: maroon;
+  color: rgb(226, 234, 248);
   text-align: center;
   font-family: century gothic;
   font-size: large;
 }
 .profile {
-  border: 2px solid maroon;
+  border: 2px solid rgb(226, 234, 248);
   border-radius: 8px;
   text-align: center;
   width: 250px;
@@ -30,7 +34,7 @@ text-align: center;
 }
 marquee{
   font-family: century gothic;
-  color: rgba(128, 0, 0, 0.526);
+  color: rgb(226, 234, 248);
   line-height: 250%;
   font-size: 24px;
   text-align: justify;
@@ -43,18 +47,16 @@ img {
   width: 300px;
   border-radius: 200px;
 }
-body {
- background-image: linear-gradient(35deg, rgb(186, 228, 228), rgb(217, 249, 252), white);
-}
+
 .marquee{
   height: 500px;
 }
 .home {
   font-size: large;
   background-color: transparent;
-  border: 2px solid maroon;
+  border: 2px solid rgb(226, 234, 248);
   border-radius: 8px;
-  color: maroon;
+  color: rgb(226, 234, 248);
   margin-left: 45%;
   margin-bottom: 50%;
 }
@@ -66,11 +68,23 @@ body {
 a:hover{
   font-size: x-large;
 }
-
+.canopy {
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  top: 0%;
+  left: 0%;
+  object-fit: cover;
+}
 
     </style>
 </head>
 <body>
+  <div class="pita">
+  <video autoplay loop muted plays-inline class="canopy">
+    <source src="canopy2.mp4" type="video/mp4">
+</video>
     <nav class="profile">
       <h2>About Me</h2>
       <a href="Drefolio.pdf" target="_blank">References</a>
@@ -100,5 +114,6 @@ a:hover{
       </div>
       <br>
       <a href="index.html"><button class="home">Take me home!</button></a>
+      </div>
 </body>
 </html>
