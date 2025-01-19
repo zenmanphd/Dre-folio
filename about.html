@@ -6,9 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About me</title>
     <style> 
-html, body {
-  background-size: cover;
-}    
 h1,h2 {
   font-family: century gothic;
   font-weight: 500;
@@ -80,7 +77,14 @@ a:hover{
   filter: none;
 }
 .pita {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
   height: 100vh;
+  background-size: cover;
+  z-index: -1; /* Place video behind other content */
+
 }
     </style>
 </head>
